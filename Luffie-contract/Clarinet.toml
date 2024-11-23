@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.deposit-management]
+path = 'contracts/deposit-management.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.rental-agreement]
 path = 'contracts/rental-agreement.clar'
 clarity_version = 2
@@ -12,6 +17,11 @@ epoch = 2.5
 
 [contracts.rental-listing]
 path = 'contracts/rental-listing.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.rental-payment-escrow]
+path = 'contracts/rental-payment-escrow.clar'
 clarity_version = 2
 epoch = 2.5
 
